@@ -10,9 +10,13 @@ git add .
 # every time we commit
 git commit -m "first commit"
 
-
+#main branch
 git branch -M main
+
+#
 git remote add origin https://github.com/jahid077/my-first-git.git
+
+#to push new elements to branch
 git push -u origin main
 
 
